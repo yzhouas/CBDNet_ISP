@@ -1,4 +1,4 @@
-# Realistic_Noise_Synthesis_sRGB
+# Realistic Noise Synthesis(sRGB)
 (https://arxiv.org/abs/1807.04686)
 ## Introduction
 This is the Python implementation of realistic noise synthesis on real images. 
