@@ -1,6 +1,6 @@
 # Realistic Noise Synthesis(sRGB)
 ## Introduction
-This is the Python implementation of realistic noise synthesis on real images, followed by the approximated noise model proposed in CBDNet and Liu et al. The original matlab implementation verison is in [here](https://github.com/GuoShi28/CBDNet). This version is slightly different with the matlab one. We re-arrange the process order and adjust some incorrect details.   
+This is the Python implementation of realistic noise synthesis on real images, followed by the approximated noise model proposed in CBDNet and Liu et al. The original matlab implementation verison is in [here](https://github.com/GuoShi28/CBDNet). This version is slightly different with the matlab one. We re-arrange the process order and adjust some incorrect details.  This noise synthesis module can be pluged into sRGB noise denoising models, to train deep models with approximated realistic noises. 
 ## Realistic Noise Model (from CBDNet)
 Given a clean image `x`, the realistic noise model can be represented as:
 ![](http://latex.codecogs.com/gif.latex?\\textbf{y}=f(M^{-1}(M(\\textbf{L}+n(\\textbf{x})))))
