@@ -11,7 +11,7 @@ import os
 from utils import *
 
 '''
-Realistic Noise Model
+Realistic Noise Model Introduced in CBDNet
 y = M^{-1}(M(f(L + n(x)))), L = f^{-1}(x) 
 x and y are the original clean image and the noisy image we created. 
 n(x) = n_s(x) + n_c, 
